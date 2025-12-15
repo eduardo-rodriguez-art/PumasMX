@@ -1,5 +1,5 @@
 //
-//  InitialViewController.swift
+//  TeamsInfoViewController.swift
 //  PumasMX
 //
 //  Created by José Eduardo Rodríguez Reyes on 15/12/25.
@@ -7,11 +7,12 @@
 
 import UIKit
 
-class InitialViewController: UIViewController {
+class TeamsInfoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemRed
+
+        // Do any additional setup after loading the view.
     }
     
 
