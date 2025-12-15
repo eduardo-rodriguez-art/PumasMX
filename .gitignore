@@ -1,0 +1,74 @@
+# OS X temporary files
+.DS_Store
+.AppleDouble
+.LSOverride
+.Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Xcode temporary files
+*~.nib
+*.swp
+*.lock
+profile
+*.moved-aside
+*.xcuserstate
+
+# Xcode build files
+build/
+DerivedData/
+Builds/
+
+# Xcode project files (user-specific settings)
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+!xcshareddata/
+!xcschemes/
+
+# Xcode workspace files
+*.xcworkspacedata
+!*.xcworkspacedata
+*.xccheckout
+*.xcscmblueprint
+
+# Dependency management
+Pods/
+Carthage/Build/
+.swiftpm/
+/node_modules/
+/.env
+.env.*
+
+# Fastlane generated files
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+# Other common files
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.crash
+*.ips
+*.log
+*.tmp
+*.swiftpm
+
