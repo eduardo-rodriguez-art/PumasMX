@@ -18,7 +18,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let windowScene = (scene as? UIWindowScene) else { return }
         self.window = UIWindow(windowScene: windowScene)
-        self.window?.rootViewController = SplashScreenRouter.createModule() // Inicializa VIPER de la Splash
+        let tapBar = TapBarRouter.createModule()
+        let navigation = AppNavigationController(rootViewController: tapBar) // Inicializa VIPER de la Splash
+        self.window?.rootViewController = navigation
         self.window?.makeKeyAndVisible()
     }
 
